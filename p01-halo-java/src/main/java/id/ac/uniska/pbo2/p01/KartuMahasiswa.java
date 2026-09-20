@@ -23,7 +23,7 @@ public class KartuMahasiswa {
         System.out.println("NPM         : " + npm );
         System.out.println("Prodi       : " + prodi);
         System.out.println("Semester    : " + semester);
-        System.out.println("=====================================");
+        System.out.println("====================================");
         
     }    
 }
