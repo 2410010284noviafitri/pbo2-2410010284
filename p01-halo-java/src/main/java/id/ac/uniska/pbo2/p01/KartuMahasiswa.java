@@ -13,17 +13,19 @@ public class KartuMahasiswa {
     public static void main(String [] args) {
     String nama = "Novia Fitri";
     String prodi = "Teknik Informatika";
+    String alasan = "Karena ingin memperdalam konsep yang sudah dipelajari di PBO 1";
     String npm = "2410010284";
     int semester = 5;
     
-        System.out.println("====================================");
-        System.out.println("        KARTU MAHASISWA PBO 2       ");
-        System.out.println("====================================");
+        System.out.println("=================================================================================");
+        System.out.println("                          KARTU MAHASISWA PBO 2                                  ");
+        System.out.println("=================================================================================");
         System.out.println("Nama        : " + nama );
         System.out.println("NPM         : " + npm );
         System.out.println("Prodi       : " + prodi);
         System.out.println("Semester    : " + semester);
-        System.out.println("====================================");
+        System.out.println("Alasan      : " + alasan);
+        System.out.println("=================================================================================");
         
     }    
 }
