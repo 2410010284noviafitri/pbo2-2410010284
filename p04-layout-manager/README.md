@@ -70,4 +70,4 @@
 ## 5. Deklarasi Penggunaan AI
 - **Alat AI yang digunakan:** Claude (Google)
 - **Keperluan:**
-- -Membantu saya untuk memperjelas isi modul karena saya sempat stuck di latihan praktikum ke 3, Membantu saya mengkoreksi jawaban eksperimen dan tugas FormAnggotaPerpustakaan yang sudah saya kerjakan lalu saya belajar dari hasil koreksi nya.
+- Membantu saya untuk memperjelas isi modul karena saya sempat stuck di latihan praktikum ke 3, Membantu saya mengkoreksi jawaban eksperimen dan tugas FormAnggotaPerpustakaan yang sudah saya kerjakan lalu saya belajar dari hasil koreksi nya.
