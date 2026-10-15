@@ -40,14 +40,14 @@
 ## 3. Jawaban Eksperimen
 
 ### **Jawaban Eksperimen Praktikum 2 (Galeri Layout):**
-1. **FlowLayout Center:** Tombol pindah ke tengah. Saat jendela dikecilkan, tombol yang tidak muat turun ke baris bawah dan tetap rata tengah. Di kode `initComponents()`, `FlowLayout.LEFT` berubah jadi `FlowLayout.CENTER`.
-2. **GridLayout Rows 0, Columns 2:** Terbentuk 5 baris. Karena `Rows` diatur `0`, jumlah baris dihitung otomatis dari 9 tombol ÷ 2 kolom = 4,5 lalu dibulatkan jadi 5 baris. Baris terakhir terisi 1 tombol.
-3. **BoxLayout Maximum Size 32767:** Tombol melebar penuh selebar panel karena `BoxLayout` mengikuti ukuran maksimum komponen. *Vertical Strut* berfungsi menambah jarak vertikal antar tombol.
+1. Tombol pindah ke tengah. Saat jendela dikecilkan, tombol yang tidak muat turun ke baris bawah dan tetap rata tengah. Di kode `initComponents()`, `FlowLayout.LEFT` berubah jadi `FlowLayout.CENTER`.
+2. Terbentuk 5 baris. Karena `Rows` diatur `0`, jumlah baris dihitung otomatis dari 9 tombol ÷ 2 kolom = 4,5 lalu dibulatkan jadi 5 baris. Baris terakhir terisi 1 tombol.
+3. Tombol melebar penuh selebar panel karena `BoxLayout` mengikuti ukuran maksimum komponen. *Vertical Strut* berfungsi menambah jarak vertikal antar tombol.
 
 ### **Jawaban Eksperimen Praktikum 4 (Form Biodata):**
-1. **Weight X namaField 0.0:** `namaField` tetap melebar karena isian lain di kolom yang sama masih berbobot `Weight X 1.0` (lebar kolom mengikuti weight terbesar). Isian baru berhenti melebar jika semua komponen di kolom itu diubah jadi `0.0`.
-2. **Direction formPanel (North ke Center):** `formPanel` tertarik memenuhi tinggi `isiPanel`, sehingga posisi baris form menyebar dan tidak menempel di atas lagi saat jendela ditinggikan.
-3. **Tanpa setMinimumSize:** Jendela bisa dikecilkan sampai komponen tidak muat (Text Area Alamat mengecil duluan, lalu label terpotong). `setMinimumSize` digunakan agar ukuran jendela tidak bisa dikecilkan melebihi ukuran awal.
+1. `namaField` tetap melebar karena isian lain di kolom yang sama masih berbobot `Weight X 1.0` (lebar kolom mengikuti weight terbesar). Isian baru berhenti melebar jika semua komponen di kolom itu diubah jadi `0.0`.
+2. `formPanel` tertarik memenuhi tinggi `isiPanel`, sehingga posisi baris form menyebar dan tidak menempel di atas lagi saat jendela ditinggikan.
+3.  Jendela bisa dikecilkan sampai komponen tidak muat (Text Area Alamat mengecil duluan, lalu label terpotong). `setMinimumSize` digunakan agar ukuran jendela tidak bisa dikecilkan melebihi ukuran awal.
 ---
 
 ## 4. Tahap 4: Saling Menilai (Peer Review)
