@@ -70,6 +70,7 @@ public class FormBiodata extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Biodata Mahasiswa");
+        setMinimumSize(new java.awt.Dimension(311, 300));
         setName("formBiodata"); // NOI18N
 
         headerPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(16, 16, 8, 16));
