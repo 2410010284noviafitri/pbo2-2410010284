@@ -13,7 +13,7 @@
 
 ---
 
-## 3. Jawaban Eksperimen:
+## 2. Jawaban Eksperimen:
 
 ## 1.
 Tambahkan baris berikut di dalam method main: Koleksi x = new Koleksi("X01", "Uji", 2026);
