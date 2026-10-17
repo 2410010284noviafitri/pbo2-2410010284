@@ -8,7 +8,7 @@
 
 ## 1. Tangkapan Layar (Screenshots) keluaran program yang menunjukkan pencarian dan percobaan meminjam Skripsi;
 
-(images2/Output PerpustakaanMini.png)
+!(images2/Output PerpustakaanMini.png)
 
 
 ---
