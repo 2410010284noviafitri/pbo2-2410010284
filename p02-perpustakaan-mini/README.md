@@ -8,24 +8,12 @@
 
 ## 1. Tangkapan Layar (Screenshots) keluaran program yang menunjukkan pencarian dan percobaan meminjam Skripsi;
 
-### **A. Ukuran Awal**
-![Ukuran Awal](images/FormUkuranAwal.png)
+(images2/Output_PerpustakaanMini.png)
 
-### **B. Saat Dilebarkan**
-![Saat Dilebarkan](images/FormSaatdiLebarkan.png)
-
-### **C. Tampilan Tab Design & Navigator NetBeans**
-![Navigator](images/TabDesignNavigatorFormAnggota.png)
 
 ---
 
-## 3. Jawaban Eksperimen
-
-### **Jawaban Eksperimen :**
-Nama : Novia Fitri
-NPM : 2410010284
-Kelas : 5C Teknik Informatika
-Eksperimen:
+## 3. Jawaban Eksperimen:
 
 ## 1.
 Tambahkan baris berikut di dalam method main: Koleksi x = new Koleksi("X01", "Uji", 2026);
