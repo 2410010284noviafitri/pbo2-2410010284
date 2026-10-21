@@ -1,7 +1,5 @@
 # Pertemuan 5: Event Handling (P05)
 
-Repositori ini berisi tugas dan Latihan Mandiri Pemrograman Berorientasi Objek 2 (PBO 2) untuk topik **Event Handling** pada Java Swing menggunakan NetBeans dan Maven.
-
 ---
 
 ## 1. Tabel Pengamatan Praktikum 2
