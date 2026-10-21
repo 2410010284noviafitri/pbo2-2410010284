@@ -69,4 +69,4 @@ Berikut adalah lampiran tangkapan layar pengujian aplikasi Latihan Mandiri *Form
 
 Aplikasi yang digunakan : Claude
 
-Deklarasi Penggunaan : membantu saya saat saya kebingungan membuat kode yang ada di npmField dan batalButton. Lalu saya gunakan juga untuk mengkoreksi hasil tugas mandiri saya. 
+Deklarasi Penggunaan : membantu saya saat saya kebingungan membuat tugas mandiri kode yang ada di npmField dan batalButton. Lalu saya gunakan juga untuk mengkoreksi hasil tugas mandiri saya. 
