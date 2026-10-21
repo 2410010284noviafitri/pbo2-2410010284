@@ -6,12 +6,12 @@
 
 | No | Tindakan | Event yang Tercatat |
 | :--- | :--- | :--- |
-| **1** | Arahkan kursor ke tombol, lalu jauhkan | `MouseEvent` (kursor masuk/keluar area tombol) |
-| **2** | Klik tombol **Klik saya** | `ActionEvent` (tombol diklik) |
-| **3** | Centang lalu hapus centang **Aktifkan fitur** | `ItemEvent` (status centang berubah) |
-| **4** | Ganti pilihan dari **Pagi** menjadi **Malam** | `ItemEvent` (perubahan item yang dipilih) |
-| **5** | Klik isian, lalu ketik kata **"abc"** | `FocusEvent` (fokus kursor), `KeyEvent` (input karakter a, b, c) |
-| **6** | Klik tombol setelah mengetik di isian | `FocusEvent` (isian kehilangan fokus), `ActionEvent` (tombol diklik) |
+| **1** | Arahkan kursor ke tombol, lalu jauhkan | `MouseEvent` (kursor masuk ke tombol), 'MouseEvent' (kursor keluar dari tombol) |
+| **2** | Klik tombol **Klik saya** | 'MouseEvent' (masuk), `ActionEvent` (tombol diklik) |
+| **3** | Centang lalu hapus centang **Aktifkan fitur** | `ItemEvent` (kotak dicentang), `ItemEvent` (centang dihapus) |
+| **4** | Ganti pilihan dari **Pagi** menjadi **Malam** | `ItemEvent` (memilih Malam) |
+| **5** | Klik isian, lalu ketik kata **"abc"** | `FocusEvent` (isian mendapat fokus), `KeyEvent` (mengetik huruf a), `KeyEvent` (mengetik huruf b), `KeyEvent` (mengetik huruf c)  |
+| **6** | Klik tombol setelah mengetik di isian | `MouseEvent` (masuk), 'Focus Event' (isian kehilangan fokus), `ActionEvent` (tombol diklik) |
 
 ---
 
@@ -19,20 +19,20 @@
 
 ### Eksperimen Praktikum 3 (Konversi Suhu)
 1. **Pesan tercetak setelah `if` dihapus:**  
-   Pesan tercetak dua kali karena mendeteksi dua kondisi perubahan status (`DESELECTED` dan `SELECTED`).
+   Setelah pemeriksaan SELECTED dihapus, pesan “item berubah” tercetak 2 kali setiap pilihan satuan diganti. Hal ini terjadi karena itemStateChanged dipanggil dua kali, yaitu saat pilihan lama dilepas (DESELECTED) dan saat pilihan baru dipilih (SELECTED).
 2. **Keterlambatan hasil pada `keyPressed`:**  
-   Event `keyPressed` dipicu *sebelum* karakter baru selesai dimasukkan ke dalam komponen teks, sehingga `getText()` membaca teks lama.
+ Karena event `keyPressed` dipicu pas tombol keyboard ditekan *sebelum* karakternya bener-bener masuk ke dalam kotak teks, jadi `getText()` masih membaca teks yang sebelumnya.
 3. **Hasil tanpa `try-catch` saat diisi huruf:**  
-   Program mengalami error eksepsi `NumberFormatException` di jendela Output karena huruf tidak dapat diubah menjadi tipe data numerik (`Double`).
+Program bakal langsung *error* (muncul `NumberFormatException` di konsol output) karena huruf abjad nggak bisa dipaksa masuk ke tipe data angka (`Double`). Aplikasi tidak tertutup, tapi hasilnya tidak di update.
 
 ### Eksperimen Praktikum 4 (Kalkulator Sederhana)
 1. **Dua kali pesan & penanganan tombol:**  
-   Pesan tercetak dua kali karena ada dua listener aktif bersamaan (GUI Builder + Lambda). Tombol sebaiknya hanya menggunakan satu cara penanganan event agar aksi tidak dieksekusi ganda.
+   Pesan 'kali' bisa dobel karena ada dua listener yang jalan barengan (dari bawaan GUI Builder sama kode lambda). Makanya lebih baik pakai satu cara aja supaya perintahnya nggak tumpang tindih.
 2. **Perubahan untuk Operator Modulus (`%`):**  
-   - **Tab Design:** Menambahkan komponen tombol baru dengan teks `%`.  
-   - **Tab Source:** Menambahkan kondisi baru pada ekspresi switch/if: `case '%' -> a % b;`.
+   - **Tab Design:** seret tombol baru dan ganti teksnya jadi `%`
+   - **Tab Source:** Tambahin baris rumus baru di bagian switch/if, yaitu `case '%' -> a % b;`.
 3. **Kursor kembali ke isian pertama:**  
-   Karena method `hapus` memanggil perintah `angka1Field.requestFocusInWindow();` yang mengarahkan kursor kembali secara otomatis ke isian pertama.
+  Karena di dalam method hapus kita udah nyelipin perintah `angka1Field.requestFocusInWindow();`, jadi kursornya langsung mandiri balik ke kotak pertama.
 
 ---
 
@@ -67,7 +67,5 @@ Berikut adalah lampiran tangkapan layar pengujian aplikasi Latihan Mandiri *Form
 
 ## 5. Deklarasi Penggunaan AI
 
-Aplikasi dan dokumen README ini dikembangkan dengan bantuan AI (**Gemini**) untuk keperluan:
-- Konsultasi logika event handling Java Swing.
-- Pengecekan sintaks dan pemecahan masalah Git repository.
-- Penyusunan format laporan dan tabel pemetaan event.
+Aplikasi yang digunakan : Claude
+Deklarasi Penggunaan : membantu saya saat saya kebingungan membuat kode yang ada di npmField dan batalButton. Lalu saya gunakan juga untuk mengkoreksi hasil tugas mandiri saya. 
