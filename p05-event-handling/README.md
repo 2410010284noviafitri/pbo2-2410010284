@@ -6,7 +6,7 @@
 
 | No | Tindakan | Event yang Tercatat |
 | :--- | :--- | :--- |
-| **1** | Arahkan kursor ke tombol, lalu jauhkan | `MouseEvent` (kursor masuk ke tombol), 'MouseEvent' (kursor keluar dari tombol) |
+| **1** | Arahkan kursor ke tombol, lalu jauhkan | `MouseEvent` (kursor masuk ke tombol), `MouseEvent` (kursor keluar dari tombol) |
 | **2** | Klik tombol **Klik saya** | `MouseEvent` (masuk), `ActionEvent` (tombol diklik) |
 | **3** | Centang lalu hapus centang **Aktifkan fitur** | `ItemEvent` (kotak dicentang), `ItemEvent` (centang dihapus) |
 | **4** | Ganti pilihan dari **Pagi** menjadi **Malam** | `ItemEvent` (memilih Malam) |
