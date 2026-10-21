@@ -7,11 +7,11 @@
 | No | Tindakan | Event yang Tercatat |
 | :--- | :--- | :--- |
 | **1** | Arahkan kursor ke tombol, lalu jauhkan | `MouseEvent` (kursor masuk ke tombol), 'MouseEvent' (kursor keluar dari tombol) |
-| **2** | Klik tombol **Klik saya** | 'MouseEvent' (masuk), `ActionEvent` (tombol diklik) |
+| **2** | Klik tombol **Klik saya** | `MouseEvent` (masuk), `ActionEvent` (tombol diklik) |
 | **3** | Centang lalu hapus centang **Aktifkan fitur** | `ItemEvent` (kotak dicentang), `ItemEvent` (centang dihapus) |
 | **4** | Ganti pilihan dari **Pagi** menjadi **Malam** | `ItemEvent` (memilih Malam) |
 | **5** | Klik isian, lalu ketik kata **"abc"** | `FocusEvent` (isian mendapat fokus), `KeyEvent` (mengetik huruf a), `KeyEvent` (mengetik huruf b), `KeyEvent` (mengetik huruf c)  |
-| **6** | Klik tombol setelah mengetik di isian | `MouseEvent` (masuk), 'Focus Event' (isian kehilangan fokus), `ActionEvent` (tombol diklik) |
+| **6** | Klik tombol setelah mengetik di isian | `MouseEvent` (masuk), `Focus Event` (isian kehilangan fokus), `ActionEvent` (tombol diklik) |
 
 ---
 
@@ -68,4 +68,5 @@ Berikut adalah lampiran tangkapan layar pengujian aplikasi Latihan Mandiri *Form
 ## 5. Deklarasi Penggunaan AI
 
 Aplikasi yang digunakan : Claude
+
 Deklarasi Penggunaan : membantu saya saat saya kebingungan membuat kode yang ada di npmField dan batalButton. Lalu saya gunakan juga untuk mengkoreksi hasil tugas mandiri saya. 
