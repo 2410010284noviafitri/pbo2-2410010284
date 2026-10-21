@@ -327,9 +327,18 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
     }//GEN-LAST:event_setujuCheckItemStateChanged
 
     private void daftarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_daftarButtonActionPerformed
+        String jenis = mahasiswaRadio.isSelected() ? "Mahasiswa"
+        : dosenRadio.isSelected() ? "Dosen" : "Umum";
+
         String ringkasan = "NPM: " + npmField.getText()
-        + "\nNama: " + namaField.getText();
-        JOptionPane.showMessageDialog(this, ringkasan,
+        + "\nNama: " + namaField.getText()
+        + "\nProgram Studi: " + prodiCombo.getSelectedItem()
+        + "\nJenis Anggota: " + jenis
+        + "\nEmail: " + emailField.getText()
+        + "\nNomor HP: " + hpField.getText()
+        + "\nAlamat: " + alamatArea.getText();
+
+JOptionPane.showMessageDialog(this, ringkasan,
         "Ringkasan Pendaftaran", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_daftarButtonActionPerformed
 
