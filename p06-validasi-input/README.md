@@ -52,28 +52,7 @@ Berikut adalah dua foto/pindaian lembar *peer review* yang diterima dari teman p
 
 ---
 
-## 4. Pertanyaan Refleksi
+## 4. Deklarasi Penggunaan AI
 
-1. **Mengapa aturan validasi dipisahkan ke kelas Validator?**  
-   Agar aturan validasi terpisah dari logika tampilan (GUI), sehingga kode lebih bersih dan mudah diuji secara mandiri (misalnya menggunakan JUnit di pertemuan selanjutnya).
-
-2. **Mengapa isian kosong tidak langsung ditandai merah saat dilewati?**  
-   Untuk menjaga kenyamanan pengguna (menghindari pengalaman interaksi yang terlalu mengintimidasi saat pengguna baru mulai bernavigasi melewati form). Validasi kosong secara serentak dilakukan saat tombol Daftar ditekan.
-
-3. **Sebutkan tiga heuristik Nielsen yang diterapkan:**  
-   - *Pencegahan kesalahan* (membatasi input NPM/HP hanya angka).
-   - *Visibilitas status sistem* (menampilkan jumlah isian yang perlu diperbaiki).
-   - *Kendali dan kebebasan pengguna* (konfirmasi saat membatalkan pengisian form).
-
-4. **Mengapa pesan kesalahan tidak boleh hanya berupa warna merah?**  
-   Karena sebagian pengguna mungkin mengalami kondisi buta warna, sehingga pesan teks yang jelas dan spesifik di bawah isian sangat diperlukan.
-
-5. **Temuan peer review yang paling bermanfaat:**  
-   Memastikan konsistensi aksesibilitas seperti `labelFor` dan penekanan tombol cepat (`mnemonic`) agar form dapat dioperasikan secara efisien menggunakan papan ketik (*keyboard*).
-
----
-
-## 5. Deklarasi Penggunaan AI
-
-- **Aplikasi yang digunakan:** Gemini AI
-- **Deklarasi Penggunaan:** Membantu menyusun laporan praktikum `README.md`, merapikan format jawaban eksperimen praktikum, menyusun tabel ringkasan peer review, serta memandu langkah-langkah Git.
+- **Aplikasi yang digunakan:** Claude
+- **Deklarasi Penggunaan:** Memperjelas isi modul, membantu untuk mengkoreksi hasil tugas mandiri.
