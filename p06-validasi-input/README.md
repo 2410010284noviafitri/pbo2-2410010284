@@ -4,7 +4,7 @@
 
 ## 1. Jawaban Eksperimen (Praktikum 4)
 
-1. **Ketik huruf pada isian NPM. Apa yang terjadi dan baris mana di npmFieldKeyTyped yang menyebabkannya?**: Saat di ketik huruf tidak ada muncul apa apa dalam kotak isian, ini di sebabkan  karena di npmFieldKeyTyped terdapat kode " if (!Character.isDigit(evt.getKeyChar()) || penuh) { 
+1. **Ketik huruf pada isian NPM. Apa yang terjadi dan baris mana di npmFieldKeyTyped yang menyebabkannya?**:                                     Saat di ketik huruf tidak ada muncul apa apa dalam kotak isian, ini di sebabkan  karena di npmFieldKeyTyped terdapat kode " if (!Character.isDigit(evt.getKeyChar()) || penuh) { 
         evt.consume();" itu lah yang menyebabkan huruf tidak masuk ke kotak isian.
         
 2. **Isi email dengan `siti@`, lalu tekan Tab:**  
