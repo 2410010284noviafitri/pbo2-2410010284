@@ -32,7 +32,7 @@ Berikut adalah lampiran tangkapan layar pengujian aplikasi *Form Anggota Perpust
    ![Form Dengan Kesalahan](SS_FormDenganKesalahan.jpg)
 
 2. **Jendela Navigator (Hierarki Label Pesan):**  
-   ![Tab Design Navigator](SS_TabDesignNavigator.png)
+   ![Tab Design Navigator](SS_TabDesignNavigator.jpg)
 
 ---
 
