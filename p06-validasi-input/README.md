@@ -20,7 +20,7 @@
  Diatur oleh properti displayedMnemonic pada label Nama (dan terhubung ke isian lewat labelFor).
 
 6. **Isi beberapa isian, lalu klik Batal dan pilih No. Apakah data tetap ada?:** 
-  data tetap ada, karena batal() melakukan return sebelum kosongkan().
+   Data tetap ada, karena batal() melakukan return sebelum kosongkan().
 
 ---
 
