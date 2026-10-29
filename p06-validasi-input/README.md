@@ -4,23 +4,23 @@
 
 ## 1. Jawaban Eksperimen (Praktikum 4)
 
-1. **Ketik huruf pada isian NPM:**  
-   Saat diketik huruf, tidak ada muncul apa pun dalam kotak isian. Hal ini disebabkan karena di dalam `npmFieldKeyTyped` terdapat kode `if (!Character.isDigit(evt.getKeyChar()) || penuh) { evt.consume(); }` yang berfungsi mencegah karakter selain angka atau ketika panjang input sudah penuh agar tidak masuk ke kotak isian.
-
+**1. Ketik huruf pada isian NPM. Apa yang terjadi dan baris mana di npmFieldKeyTyped yang menyebabkannya?**: Saat di ketik huruf tidak ada muncul apa apa dalam kotak isian, ini di sebabkan  karena di npmFieldKeyTyped terdapat kode " if (!Character.isDigit(evt.getKeyChar()) || penuh) { 
+        evt.consume();" itu lah yang menyebabkan huruf tidak masuk ke kotak isian.
+        
 2. **Isi email dengan `siti@`, lalu tekan Tab:**  
    Pesan kesalahan muncul saat fokus keluar dari isian (`event focusLost`), bukan pada saat pengguna sedang mengetik.
 
-3. **Klik isian Nama tanpa mengetik, lalu tekan Tab:**  
-   Tidak ada pesan kesalahan yang muncul karena metode `focusLost` hanya memeriksa jika isian tidak kosong (`!isBlank()`). Isian kosong baru akan divalidasi secara menyeluruh saat tombol **Daftar** diklik.
+3. **Klik isian Nama tanpa mengetik, lalu tekan Tab. Mengapa tidak ada pesan kesalahan?:**  
+   Tidak ada pesan apapun karena focusLost hanya memeriksa jika isian tidak kosong (!isBlank()). Isian kosong baru diperiksa saat Daftar diklik.
 
-4. **Centang persetujuan, lalu klik Daftar dengan form kosong:**  
-   Fokus otomatis berpindah ke **NPM** karena NPM merupakan urutan kesalahan pertama dalam daftar pemeriksaan validasi.
+4. **Centang persetujuan, lalu klik Daftar dengan form kosong, isian mana yang mendapat fokus:**  
+   Fokus ke NPM, karena itu kesalahan pertama yang ada di urutan pemeriksaan.
 
-5. **Tekan tombol Alt bersama huruf N:**  
-   Fokus berpindah ke isian **Nama lengkap**. Hal ini diatur oleh properti `displayedMnemonic` pada label Nama yang terhubung ke isian lewat properti `labelFor`.
+5. **Tekan tombol Alt bersama huruf N. Isian mana yang mendapat fokus, dan properti apa yang mengaturnya?:**  
+ Diatur oleh properti displayedMnemonic pada label Nama (dan terhubung ke isian lewat labelFor).
 
-6. **Isi beberapa isian, lalu klik Batal dan pilih No:**  
-   Data tetap ada dan tidak terhapus, karena method `batal()` memanggil konfirmasi dan melakukan `return` jika pengguna memilih "No" sebelum menjalankan method `kosongkan()`.
+6. **Isi beberapa isian, lalu klik Batal dan pilih No. Apakah data tetap ada?:** 
+  data tetap ada, karena batal() melakukan return sebelum kosongkan().
 
 ---
 
