@@ -29,10 +29,10 @@
 Berikut adalah lampiran tangkapan layar pengujian aplikasi *Form Anggota Perpustakaan*:
 
 1. **Form dengan Pesan Kesalahan:**  
-   ![Form Dengan Kesalahan](SS_FormDenganKesalahan.jpg)
+   ![Form Dengan Kesalahan](SS_FormDenganKesalahan.png)
 
 2. **Jendela Navigator (Hierarki Label Pesan):**  
-   ![Tab Design Navigator](SS_TabDesignNavigator.jpg)
+   ![Tab Design Navigator](SS_TabDesignNavigator.png)
 
 ---
 
