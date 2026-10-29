@@ -31,7 +31,7 @@ Berikut adalah lampiran tangkapan layar pengujian aplikasi *Form Anggota Perpust
 1. **Form dengan Pesan Kesalahan:**  
    ![Form Dengan Kesalahan](images6/SS_FormDenganKesalahan.png)
 
-2. **Jendela Navigator (Hierarki Label Pesan):**  
+2. **Jendela Navigator:**  
    ![Tab Design Navigator](images6/SS_TabDesignNavigator.png)
 
 ---
