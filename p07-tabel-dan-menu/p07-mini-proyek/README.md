@@ -5,5 +5,5 @@
 - **Keterangan:** Durasi 2 menit 59 detik. Video ini memperlihatkan sekilas tab Design, jendela Navigator, serta seluruh fitur pada tabel aplikasi Katalog Buku Perpustakaan.
 
 ## 2. Deklarasi Penggunaan AI
-- **Aplikasi yang digunakan:** Gemini
-- **Deklarasi Penggunaan:** Membantu menyusun struktur format laporan README serta merapikan dokumentasi penjelasan tugas mini proyek P07.
+- **Aplikasi yang digunakan:** Claude
+- **Deklarasi Penggunaan:** Membantu memperjelas tugas yang kurang saya pahami dan mengkoreksi hasil tugas mandiri saya.
