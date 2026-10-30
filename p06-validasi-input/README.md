@@ -56,7 +56,7 @@ Berikut adalah lembar *peer review* yang diterima dari Nuriatun Syalma:
 | No | Temuan dari Teman | Perbaikan yang Dilakukan | Commit yang Memuat Perbaikan |
 | No | Temuan dari Teman | Perbaikan yang Dilakukan | Commit yang Memuat Perbaikan |
 | :--- | :--- | :--- | :--- |
-| **1** | Tombol "Batal" dan dialog konfirmasi berfungsi dengan baik, namun setelah memilih "No" pada dialog konfirmasi, fokus kursor tidak otomatis kembali ke kolom isian sehingga harus diklik manual pakai mouse. (Skor: 2) | Menambahkan kode `requestFocusInWindow()` agar fokus kursor otomatis kembali ke kolom isian yang terakhir aktif setelah memilih "No" pada dialog konfirmasi pembatalan. | `P06: Perbaikan fokus kursor pembatalan` |
+| **1** | Tombol "Batal" dan dialog konfirmasi berfungsi dengan baik, namun setelah memilih "No" pada dialog konfirmasi, fokus kursor tidak otomatis kembali ke kolom isian sehingga harus diklik manual pakai mouse. (Skor: 2) | Menambahkan kode `npmField.requestFocusInWindow()` pada method batal agar fokus kursor otomatis kembali ke kolom isian utama (NPM) setelah pengguna memilih "No".| `P06: Perbaikan fokus kursor pembatalan` |
 
 
 ---
