@@ -53,7 +53,7 @@ Berikut adalah lembar *peer review* yang diterima dari Nuriatun Syalma:
 | **9** | Membantu memperbaiki kesalahan | Pesan kesalahan ditampilkan dengan jelas dan membantu pengguna mengetahui kesalahan serta cara memperbaiki input yang tidak sesuai. | 0 | Pertahankan pesan kesalahan yang informatif agar pengguna mudah memperbaiki kesalahan pengisian. |
 | **10** | Bantuan dan dokumentasi | Form menyediakan petunjuk pengisian melalui label atau tooltip sehingga pengguna dapat memahami aturan pengisian dengan lebih mudah. | 0 | Pertahankan petunjuk dan tooltip agar pengguna tetap terbantu saat mengisi form. |
 ### B. Tabel Singkat Temuan, Perbaikan, dan Commit
-| No | Temuan dari Teman | Perbaikan yang Dilakukan | Commit yang Memuat Perbaikan |
+
 | No | Temuan dari Teman | Perbaikan yang Dilakukan | Commit yang Memuat Perbaikan |
 | :--- | :--- | :--- | :--- |
 | **1** | Tombol "Batal" dan dialog konfirmasi berfungsi dengan baik, namun setelah memilih "No" pada dialog konfirmasi, fokus kursor tidak otomatis kembali ke kolom isian sehingga harus diklik manual pakai mouse. (Skor: 2) | Menambahkan kode `npmField.requestFocusInWindow()` pada method batal agar fokus kursor otomatis kembali ke kolom isian utama (NPM) setelah pengguna memilih "No".| `P06: Perbaikan fokus kursor pembatalan` |
