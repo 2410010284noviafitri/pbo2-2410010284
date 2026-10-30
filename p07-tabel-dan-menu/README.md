@@ -21,14 +21,3 @@
 
 6. **Isi beberapa isian, lalu klik Batal dan pilih No. Apakah data tetap ada?:**  
    Data tetap ada, karena `batal()` melakukan `return` sebelum `kosongkan()`.
-
----
-
-## 2. Tautan Video Demo Mini Proyek
-Link Video Demo P07: [Google Drive - Video Demo P07](https://drive.google.com/file/d/1ncDpa8Cc7y4GlKYWxIA74l2tDSlwJJqw/view?usp=sharing) *(Durasi: 2 menit 59 detik, memperlihatkan sekilas tab Design, jendela Navigator, serta seluruh fitur pada tabel)*
-
----
-
-## 3. Deklarasi Penggunaan AI
-- **Aplikasi yang digunakan:** Claude
-- **Deklarasi Penggunaan:** Membantu memperjelas beberapa bagian tugas yang kurang saya pahami, dan memeriksa hasil tugas mandiri saya.
