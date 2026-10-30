@@ -54,10 +54,10 @@ Berikut adalah lembar *peer review* yang diterima dari Nuriatun Syalma:
 | **10** | Bantuan dan dokumentasi | Form menyediakan petunjuk pengisian melalui label atau tooltip sehingga pengguna dapat memahami aturan pengisian dengan lebih mudah. | 0 | Pertahankan petunjuk dan tooltip agar pengguna tetap terbantu saat mengisi form. |
 ### B. Tabel Singkat Temuan, Perbaikan, dan Commit
 | No | Temuan dari Teman | Perbaikan yang Dilakukan | Commit yang Memuat Perbaikan |
+| No | Temuan dari Teman | Perbaikan yang Dilakukan | Commit yang Memuat Perbaikan |
 | :--- | :--- | :--- | :--- |
-| **1** | Status ringkasan kesalahan di bawah form sudah jelas dan mudah dipahami. | Mempertahankan status dan pesan merah pada bagian bawah form. | `P06: Validasi input dan umpan balik` |
-| **2** | Input NPM dan nomor HP sudah dibatasi dengan baik hanya angka. | Memastikan event `keyTyped` berjalan optimal mengonsumsi karakter non-angka. | `P06: Validasi input dan umpan balik` |
-| **3** | Pesan kesalahan pada email kurang spesifik memperlihatkan format contoh. | Menambahkan format contoh yang jelas (`nama@contoh.com` dan `08xxxxxxxxxx`). | `P06: Perbaikan pesan error validator` |
+| **1** | Tombol "Batal" dan dialog konfirmasi berfungsi dengan baik, namun setelah memilih "No" pada dialog konfirmasi, fokus kursor tidak otomatis kembali ke kolom isian sehingga harus diklik manual pakai mouse. (Skor: 2) | Menambahkan kode `requestFocusInWindow()` agar fokus kursor otomatis kembali ke kolom isian yang terakhir aktif setelah memilih "No" pada dialog konfirmasi pembatalan. | `P06: Perbaikan fokus kursor pembatalan` |
+
 
 ---
 
