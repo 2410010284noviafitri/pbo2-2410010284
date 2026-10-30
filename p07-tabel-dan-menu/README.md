@@ -30,5 +30,5 @@ Link Video Demo P07: [Google Drive - Video Demo P07](https://drive.google.com/fi
 ---
 
 ## 3. Deklarasi Penggunaan AI
-- **Aplikasi yang digunakan:** Gemini
-- **Deklarasi Penggunaan:** Membantu menyusun struktur format laporan README serta merapikan dokumentasi jawaban eksperimen praktikum P07.
+- **Aplikasi yang digunakan:** Claude
+- **Deklarasi Penggunaan:** Membantu memperjelas beberapa bagian tugas yang kurang saya pahami, dan memeriksa hasil tugas mandiri saya.
