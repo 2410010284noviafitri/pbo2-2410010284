@@ -571,6 +571,7 @@ private void batal() {
                 "Data yang sudah diisi akan dihapus. Lanjutkan?", "Konfirmasi",
                 JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
         if (jawab != JOptionPane.YES_OPTION) {
+          npmField.requestFocusInWindow();
             return;
         }
     }
