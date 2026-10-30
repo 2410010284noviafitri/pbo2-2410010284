@@ -15,14 +15,14 @@ import javax.swing.table.TableRowSorter;
  * @author user
  */
 public class AplikasiKontak extends javax.swing.JFrame {
-    private KontakTableModel model;
-//    private final KontakTableModel model = new KontakTableModel();
+    
+    private final KontakTableModel model = new KontakTableModel();
     private final TableRowSorter<KontakTableModel> sorter = new TableRowSorter<>(model);
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(AplikasiKontak.class.getName());
 
     public AplikasiKontak() {
     initComponents();
-    model = new KontakTableModel();   
+   
     
     cariField.putClientProperty("JTextField.placeholderText", "Cari nama, telepon, email");
     kontakTable.setRowSorter(sorter); // klik judul kolom untuk mengurutkan
