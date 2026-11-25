@@ -40,9 +40,6 @@ Berikut adalah lampiran tangkapan layar pengujian aplikasi *SiPerpus: Data Buku*
 2. **Dialog Ubah Buku:**  
    ![Dialog Ubah Buku](images10/SS_DialogUbahBuku.png)  
    Dialog Ubah Buku yang terisi data buku yang dipilih.
-3. **Format Kode Salah:**  
-   ![Format Kode Salah](images10/SS_FormatKodeSalah.png)  
-   Pesan merah pada dialog Tambah Buku saat kode tidak sesuai format.
 4. **Eksperimen 1, Tabel Kosong:**  
    ![Eksperimen 1 Tabel Kosong](images10/SS_Eksperimen1_TabelKosong.png)  
    Tabel kosong dan status "Menampilkan 0 buku" setelah memakai `new BukuDaoMemori()`.
