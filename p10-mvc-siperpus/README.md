@@ -70,5 +70,5 @@ Berikut adalah lampiran tangkapan layar pengujian aplikasi *SiPerpus: Data Buku*
 ## 3. Deklarasi Penggunaan AI
  
 - **Aplikasi yang digunakan:** Claude
-- **Deklarasi Penggunaan:** Memperjelas isi modul, membantu memahami langkah eksperimen, dan membantu memperbaiki error pada kode.
+- **Deklarasi Penggunaan:** Memperjelas isi modul, membantu memahami langkah eksperimen.
  
